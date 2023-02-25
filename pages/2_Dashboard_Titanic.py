@@ -16,7 +16,7 @@ dir_of_interest = os.path.join(PARENT_DIR, "resources")
 IMAGE_PATH = os.path.join(dir_of_interest, "images", "titanic.jpg")
 DATA_PATH = os.path.join(dir_of_interest, "data", "titanic.csv")
 
-st.title("Dashboard - Titanic Data")
+
 
 img = image.imread(IMAGE_PATH)
 st.image(img)
